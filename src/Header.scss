@@ -1,0 +1,49 @@
+.nav-container {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    span {
+      border-right: 1px solid #2e3238;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: 700;
+      margin: auto 20px;
+      padding-right: 20px;
+    }
+
+    li {
+      list-style: none;
+    }
+    a {
+      color: #2e3238;
+      display: inline-block;
+      text-decoration: none;
+      margin: 10px;
+    }
+    .left {
+      display: flex;
+      margin-right: auto;
+      a .icon {
+        margin-left: 5px;
+      }
+    }
+    .right {
+      display: flex;
+
+      .sign-up {
+        background-color: #fff;
+        color: #2e3238;
+        border-radius: 10px;
+        height: 35px;
+        width: 90px;
+        margin-top: 5px;
+        outline: none;
+        text-align: center;
+        padding-top: 5px;
+      }
+    }
+  }
+}
